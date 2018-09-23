@@ -9,6 +9,6 @@ Read over [server.js](server.js) to see how it works (it's tiny). This is proof 
 3. `npm install` or `yarn install`
 4. `node server.js` to start the server
 
-Download the shortcut on your iOS 12+ device: https://www.icloud.com/shortcuts/d0e642f00d83463cbf2daa733a76d948
+Download the shortcut on your iOS 12+ device: https://www.icloud.com/shortcuts/8a65e436679b4e179a964bcab68e7601
 
 Follow the instructions to import the shortcut. Your linux machine must be accessible on your local network. You will be prompted to enter a hostname upon import.
