@@ -13,6 +13,10 @@ array-flatten@1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/array-flatten/-/array-flatten-1.1.1.tgz#9a5f699051b1e7073328f2a008968b64ea2955d2"
 
+basic-auth@^1.1.0:
+  version "1.1.0"
+  resolved "http://registry.npmjs.org/basic-auth/-/basic-auth-1.1.0.tgz#45221ee429f7ee1e5035be3f51533f1cdfd29884"
+
 body-parser@1.18.2:
   version "1.18.2"
   resolved "https://registry.yarnpkg.com/body-parser/-/body-parser-1.18.2.tgz#87678a19d84b47d859b83199bd59bce222b10454"
@@ -111,6 +115,12 @@ escape-html@~1.0.3:
 etag@~1.8.1:
   version "1.8.1"
   resolved "https://registry.yarnpkg.com/etag/-/etag-1.8.1.tgz#41ae2eeb65efa62268aebfea83ac7d79299b0887"
+
+express-basic-auth@^1.1.5:
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/express-basic-auth/-/express-basic-auth-1.1.5.tgz#3a28f6300b5f1ffd8e025193489b520a264941ea"
+  dependencies:
+    basic-auth "^1.1.0"
 
 express-fileupload@^0.4.0:
   version "0.4.0"

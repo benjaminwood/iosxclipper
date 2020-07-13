@@ -1,7 +1,11 @@
 {
   "dependencies": {
     "express": "^4.16.3",
+    "express-basic-auth": "^1.1.5",
     "express-fileupload": "^0.4.0",
     "tempy": "^0.2.1"
+  },
+  "scripts": {
+    "start": "node server"
   }
 }
