@@ -20,17 +20,17 @@ Get/Fetch Linux Clipboard: https://www.icloud.com/shortcuts/ac850ef2122f4d079b26
 When you install the shortcuts you will be prompted for:
 
 1. The hostname of your linux machine on the local network
-2. A base64 encoded "Authorization" header.
+2. A base64 encoded `Authorization` header.
 
-If you used the password 'mypassword' when starting the server, you could get the base64 value like this (The username is always 'ios'):
+If you used the password `mypassword` when starting the server, you could get the base64 value like this (The username is always `ios`):
 
-echo -n 'ios:mypassword' | base64
+`echo -n 'ios:mypassword' | base64`
 
-The output would be 'aW9zOm15cGFzc3dvcmQ='
+The output would be `aW9zOm15cGFzc3dvcmQ=`
 
 The header value would be
 
-'Basic aW9zOm15cGFzc3dvcmQ='
+`Basic aW9zOm15cGFzc3dvcmQ=`
 
 ### Bonus: Run the node server with systemd
 
